@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(29, 51, 84);
+    text-align: center;
+}
+
+.outbox {
+    height: 80vh;
+    border: 2px  red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 60vmin;
+    width: 60vmin;
+    border: 2px  yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 1.5vmin;
+}
+
+.boxes {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: red;
+    background-color: floralwhite;
+
+
+}
+
+#Rbutt {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: ghostwhite;
+    font-weight: bold;
+    
+}
+#Nbutt {
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: ghostwhite;
+    font-weight: bold;
+    
+}
+#msg
+{
+    font-size: 5vmin;
+}
+.hide
+{
+    display: none;
+}
